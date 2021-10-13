@@ -11,6 +11,18 @@ public class Board {
     public char[][] getBoxes() {
         return boxes;
     }
+    
+    /*
+    P/p - пешка
+    R/r - ладья
+    H/h - конь
+    B/b - слон
+    W/w - боевая машина
+    V/v - визирь
+    G/g - жираф
+    K/k - король
+    Q/q - ферзь
+    */
 
     public void resetBoard() {
         for (int i = 0; i < 10; i++) {
